@@ -34,28 +34,17 @@ Aplicação web desenvolvida com **Streamlit** que utiliza a API do Google Gener
    cd projetoFIA
 Crie e ative um ambiente virtual (Windows):
 
-bash
-Copiar
-Editar
 python -m venv venv
 .\venv\Scripts\activate
-Instale as dependências:
 
-bash
-Copiar
-Editar
+Instale as dependências:
 pip install -r requirements.txt
+
 Crie um arquivo .env na raiz do projeto com a sua chave da API do Google Gemini:
 
-ini
-Copiar
-Editar
 GEMINI_API_KEY="sua_chave_api_aqui"
 Rode a aplicação:
 
-bash
-Copiar
-Editar
 streamlit run app.py
 Acesse http://localhost:8501 no navegador.
 
@@ -68,16 +57,4 @@ Certifique-se que o arquivo requirements.txt contenha todas as dependências (in
 
 Faça deploy/importação do repositório na plataforma Streamlit Cloud.
 
-Estrutura do projeto
-bash
-Copiar
-Editar
-projetoFIA/
-│
-├── app.py            # Código principal da aplicação Streamlit
-├── requirements.txt  # Dependências do projeto
-├── .gitignore        # Arquivos e pastas ignorados no Git
-├── README.md         # Documentação do projeto
-└── .env (local)      # Arquivo local para variáveis de ambiente (não versionado)
-Exemplo de uso
-Cole uma ou várias avaliações no campo de texto, uma por linha, e clique em "Analisar Reviews". A IA retornará a classificação e uma justificativa breve para cada avaliação.
+
